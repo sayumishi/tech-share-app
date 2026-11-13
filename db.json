@@ -3,7 +3,7 @@
     {
       "id": "1",
       "title": "React Hooksの完全理解",
-      "content": "## React Hooksの概要\n- useStateとは状態を管理するためのReactフックです。\n- useEffect はAPI通信などの副作用のある処理を実行します。\n- useRef は再描画させずに値を保持し、DOMに直接アクセスします。\n- useContext: プロップスバケリレーを解消し、グローバルデータを共有します。",
+      "content": "## React Hooksの概要\n関数コンポーネントのまま状態管理やライフサイクル機能を利用できるようにする仕組みです。コードの重複を防ぎ、ロジックを綺麗に分離・再利用できるため現在の開発標準となっています。\n- useStateとは状態を管理するためのReactフックです。\n- useEffect はAPI通信などの副作用のある処理を実行します。\n- useRef は再描画させずに値を保持し、DOMに直接アクセスします。\n- useContext: プロップスバケリレーを解消し、グローバルデータを共有します。",
       "author": "Tech Taro",
       "createdAt": "2026-11-01"
     },
