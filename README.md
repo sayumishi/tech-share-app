@@ -37,7 +37,7 @@ AtomicDesignを意識したコンポーネント設計で再利用を高めま�
    docker run -it --rm -v D:\nodeapp:/app -w /app -p 5173:5173 -p 3000:3000 --entrypoint sh node:26-slim
 3. 初回だけ、プロジェクトフォルダで部品をインストールする
    cd /app/myapp/tech-share-app && npm install
-4. プロジェクトの直下に .env ファイルを作り、次の1行を書く（API の URL を入れるメモ帳）
+4. プロジェクトの直下に .env ファイルを作り、次の1行を書く（API の URL）
    VITE_API_URL=http://127.0.0.1:3000
 5. ターミナル1でVite（画面）を起動する
    npm run dev -- --host 0.0.0.0
